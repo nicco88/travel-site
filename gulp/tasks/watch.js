@@ -3,7 +3,7 @@ var watch = require('gulp-watch');
 // not requiring the whole package, only the create() method
 var browserSync = require('browser-sync').create();
 
-notify: false,
+
 gulp.task('watch', function() {
 
   browserSync.init({
