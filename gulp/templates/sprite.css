@@ -1,3 +1,17 @@
+/* Do not edit modules/_sprite directly as it is generated automaitcally by Gulp
+Instead edit gulp/templates/sprite  */
+
 {{#shapes}}
-/* sprite created */
+  {{#first}}
+  /* This will run only the first time in the loop */
+  .icon {
+    background-image: url('/assets/images/sprites/{{{sprite}}}');
+  }
+  {{/first}}
+
+  .icon--{{base}} {
+    width: {{width.outer}}px;
+    height: {{height.outer}}px;
+    background-position: {{position.relative.xy}};
+  }
 {{/shapes}}
