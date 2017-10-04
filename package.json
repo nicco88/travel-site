@@ -18,7 +18,8 @@
   "homepage": "https://github.com/nicco88/travel-site#readme",
   "dependencies": {
     "jquery": "^3.2.1",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "ajv": "^5.2.3",
